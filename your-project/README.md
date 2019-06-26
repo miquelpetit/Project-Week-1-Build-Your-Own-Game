@@ -1,7 +1,7 @@
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
-# Title of My Project
-*Message Encryption*
+# Message Encryption
+*Miquel Petit Sierra*
 
 *[Data Analytics Full-Time, Ironhack Barcelona, June 2019]*
 
