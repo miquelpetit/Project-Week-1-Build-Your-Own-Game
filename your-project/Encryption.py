@@ -9,25 +9,25 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 3,
+   "execution_count": 67,
    "metadata": {},
    "outputs": [
     {
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "Type 0 to encrypt or 1 to decrypt: 0\n"
+      "Type 0 to encrypt or 1 to decrypt: 7\n",
+      "Your input is numeric but not '0' or '1'.\n"
      ]
     },
     {
-     "data": {
-      "text/plain": [
-       "'encrypt'"
-      ]
-     },
-     "execution_count": 3,
-     "metadata": {},
-     "output_type": "execute_result"
+     "ename": "SystemExit",
+     "evalue": "",
+     "output_type": "error",
+     "traceback": [
+      "An exception has occurred, use %tb to see the full traceback.\n",
+      "\u001b[0;31mSystemExit\u001b[0m\n"
+     ]
     }
    ],
    "source": [
@@ -65,20 +65,19 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 6,
+   "execution_count": 59,
    "metadata": {},
    "outputs": [
     {
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "You chose to encrypt.\n",
-      "Insert the text you want to encrypt: Miquel Petit Sierra??\n"
+      "You chose to decrypt.\n",
+      "Insert the text you want to decrypt: vQSiNHiu*Qq\n"
      ]
     }
    ],
    "source": [
-    "inserttext = f'Insert the text you want to {enc_or_dec(choice)}: '\n",
     "print(f'You chose to {enc_or_dec(choice)}.')\n",
     "text = input(inserttext)"
    ]
@@ -92,7 +91,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 7,
+   "execution_count": 60,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -119,7 +118,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 8,
+   "execution_count": 61,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -139,7 +138,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 9,
+   "execution_count": 62,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -163,7 +162,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 10,
+   "execution_count": 63,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -188,14 +187,14 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 11,
+   "execution_count": 64,
    "metadata": {},
    "outputs": [
     {
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "Your encrypted text:  8!97aSN\"a?!?NF!aPPigg\n"
+      "Your encrypted text:  Hola Nacho!\n"
      ]
     }
    ],
@@ -237,3 +236,4 @@
  "nbformat": 4,
  "nbformat_minor": 2
 }
+
