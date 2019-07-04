@@ -35,5 +35,5 @@ I planned this program with Trello.
 ## Links
 
 [Repository](https://github.com/miquelpetit/Project-Week-1-Build-Your-Own-Game/)  
-[Slides](https://slides.com/)  
+[Slides](https://slides.com/miquelpetit/deck)  
 [Trello](https://trello.com/b/YKJu8TTj)  
